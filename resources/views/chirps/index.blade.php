@@ -56,7 +56,7 @@
                                 </x-dropdown>
                             @endif
                         </div>
-                        <p class="mt-4 text-lg text-gray-900">{{ $chirp->message }}</p>
+                        <p class="mt-4 text-lg text-gray-900 text-wrap whitespace-pre-line">{{ $chirp->message }}</p>
                     </div>
                 </div>
             @endforeach
